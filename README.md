@@ -19,11 +19,19 @@ La fonction `dump` de symfony permet d'afficher des données lorsqu'on est en mo
 ### Installation du projet
 
 Installer composer: https://getcomposer.org/
-Clonner le repo git sur votre PC
+
+Cloner le repo git sur votre PC
+
 Lancer la commande `composer install`
+
 Se créer un compte sur le site `https://openweathermap.org/`, obtenir une clef d'API gratuite.
+
 Se créer un compte sur le site `https://developer.here.com/`, pour également obtenir une clé API.
+
 Renseigner la clef dans la variable d'environnement `WEATHER_API_KEY` (suivre les instructions fournies dans le fichier `.env`)
+
 Renseigner la deuxiéme clé dans le fichier src/assets/script.js à la ligne 55.
-Lancer la commande `php bin/console server:run` pour lancer un serveur web qui écoute sur l'adresse `http://127.0.0.1:8000`
+
+Lancer la commande `php bin/console server:run` pour lancer un serveur web qui écoute sur l'adresse `http://127.0.0.1:8000`.
+
 La page qui affichera la météo est disponible à l'url `http://127.0.0.1:8000`
