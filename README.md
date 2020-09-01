@@ -1,4 +1,4 @@
-# exo-sf
+# Meteo-Symfony
 
 ### Objectifs
 
